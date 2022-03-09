@@ -1,0 +1,35 @@
+button {
+  padding: auto;
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 120px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #1ecd97;
+  color: #1ecd97;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  color: white;
+  background: #1ecd97;
+}
+button:active {
+  letter-spacing: 2px;
+}
+
+button:disabled,
+button:focus:disabled,
+button:hover:disabled,
+button:active:disabled {
+  border-color: #ccc;
+  color: rgb(133, 133, 133);
+  background: #fff;
+  cursor: not-allowed;
+}

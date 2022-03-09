@@ -1,0 +1,32 @@
+.message_input {
+  margin-top: auto;
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.message_input form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.message_input input {
+  font: inherit;
+  height: auto;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.message_input input:focus {
+  outline: none;
+  border-color: #1ecd97;
+}
+
+.button {
+  color: white;
+  background: #1ecd97;
+}

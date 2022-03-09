@@ -1,0 +1,27 @@
+.sidebar {
+  margin-right: 0.5rem;
+  padding: 1rem;
+  width: 30%;
+  height: 100%;
+}
+
+.sidebar div:first-child {
+  color: rgb(133, 133, 133);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  height: 90%;
+  overflow-y: auto;
+}
+
+.sidebar li {
+  margin-top: 0.5rem;
+}
+
+/* .sidebar li:first-child {
+  font-weight: bold;
+}
+ */

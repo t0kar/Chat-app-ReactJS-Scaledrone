@@ -1,0 +1,24 @@
+.header {
+  width: 90%;
+  margin: 2rem auto;
+  /* margin-left: -25rem; */
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #1ecd97;
+  border-radius: 12px;
+  /*   position: fixed;
+  top: 0;
+  left: 50%; */
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.header h1 {
+  margin: 0rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+}

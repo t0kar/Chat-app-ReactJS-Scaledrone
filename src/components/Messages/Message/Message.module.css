@@ -1,0 +1,82 @@
+.message {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0rem;
+  padding-bottom: 0.5rem;
+}
+
+.message_sent {
+  text-align: right;
+  flex-flow: row-reverse nowrap;
+}
+
+.message_info {
+  display: flex;
+  margin: 0.5rem auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  font-size: 0.7rem;
+  border-radius: 12px;
+  word-break: break-all;
+}
+.message_info div {
+  flex-flow: row nowrap;
+  font-size: 0.7rem;
+  border-radius: 12px;
+  /*  border: 1px solid rgb(133, 133, 133); */
+  background-color: rgba(133, 133, 133, 0.6);
+  color: rgb(240, 240, 240);
+  padding: 0.5rem;
+}
+
+.message img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.message_sent img {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 0.5rem;
+}
+
+.username {
+  font-size: 0.7rem;
+  text-align: left;
+  color: rgb(133, 133, 133);
+  font-weight: bolder;
+  padding-bottom: 0.2rem;
+}
+
+.username_sent {
+  text-align: right;
+}
+
+.text {
+  font-size: 1rem;
+  text-align: left;
+  color: rgb(240, 240, 240);
+  max-width: 20rem;
+  word-wrap: break-word;
+  background-color: hsla(209, 100%, 40%, 0.6);
+  /* border: 1px solid #ccc; */
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+.text_sent {
+  background-color: hsl(27, 100%, 60%);
+}
+
+.timestamp {
+  font-size: 0.5rem;
+  text-align: right;
+  color: rgba(133, 133, 133, 0.6);
+  padding-top: 0.1rem;
+}
+
+.timestamp_sent {
+  text-align: left;
+}

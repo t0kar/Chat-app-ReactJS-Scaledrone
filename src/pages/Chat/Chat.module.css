@@ -1,0 +1,15 @@
+.chat {
+  margin: 1rem auto;
+  height: 30rem;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.messages {
+  width: 40rem;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
