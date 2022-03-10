@@ -5,9 +5,9 @@ button {
   text-align: center;
   width: 120px;
   border-radius: 12px;
-  background: #fff;
-  border: 1px solid #1ecd97;
-  color: #1ecd97;
+  background: inherit;
+  border: 1px solid var(--main);
+  color: var(--main);
   letter-spacing: 1px;
   text-shadow: 0;
   font-size: 12px;
@@ -17,8 +17,8 @@ button {
 }
 
 button:hover {
-  color: white;
-  background: #1ecd97;
+  color: var(--text-light);
+  background: var(--main);
 }
 button:active {
   letter-spacing: 2px;
@@ -28,8 +28,8 @@ button:disabled,
 button:focus:disabled,
 button:hover:disabled,
 button:active:disabled {
-  border-color: #ccc;
-  color: rgb(133, 133, 133);
-  background: #fff;
+  border-color: var(--border);
+  color: var(--text);
+  background: inherit;
   cursor: not-allowed;
 }

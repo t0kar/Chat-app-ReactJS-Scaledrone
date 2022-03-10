@@ -123,10 +123,6 @@ export default function Chat(props) {
   };
 
   return (
-    /*       <LogoutHeader
-        username={props.currentUser.username}
-        onLogout={props.onLogout}
-      ></LogoutHeader> */
     <div className={classes.chat}>
       <Sidebar users={users} currentUser={props.currentUser} />
       <div className={classes.messages}>

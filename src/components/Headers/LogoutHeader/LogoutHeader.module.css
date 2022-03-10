@@ -1,6 +1,7 @@
 .logout_header {
   margin: 2rem auto;
   margin-top: -8rem;
+  margin-bottom: 1rem;
   padding: 1rem;
   width: 90%;
   height: 10rem;
@@ -12,7 +13,7 @@
 .logout_header div {
   margin-right: 1rem;
   font-size: 1.5rem;
-  color: rgb(133, 133, 133);
+  color: var(--text);
   width: 100%;
   display: flex;
   align-items: center;
@@ -20,16 +21,24 @@
 
 .logout_header span {
   margin-left: 0.5rem;
-  color: #1ecd97;
+  color: var(--main);
   font-weight: bold;
 }
 
 .logout_button {
-  border: 1px solid hsl(27, 100%, 60%);
-  color: hsl(27, 100%, 60%);
+  border: 1px solid var(--logout);
+  color: var(--logout);
   height: 2rem;
 }
 
 .logout_button:hover {
-  background: hsl(27, 100%, 60%);
+  background: var(--logout);
+}
+
+@media screen and (max-width: 600px) {
+  .logout_header {
+    margin-top: -5.1rem;
+    margin-bottom: 0.5rem;
+    height: 8.5rem;
+  }
 }

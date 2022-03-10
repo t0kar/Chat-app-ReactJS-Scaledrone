@@ -24,28 +24,25 @@
   flex-flow: row nowrap;
   font-size: 0.7rem;
   border-radius: 12px;
-  /*  border: 1px solid rgb(133, 133, 133); */
-  background-color: rgba(133, 133, 133, 0.6);
-  color: rgb(240, 240, 240);
+  background-color: var(--message-info);
+  color: var(--text-light);
   padding: 0.5rem;
 }
 
 .message img {
   height: 2rem;
-  width: 2rem;
   margin-right: 0.5rem;
 }
 
 .message_sent img {
   height: 2rem;
-  width: 2rem;
   margin-left: 0.5rem;
 }
 
 .username {
   font-size: 0.7rem;
   text-align: left;
-  color: rgb(133, 133, 133);
+  color: var(--text);
   font-weight: bolder;
   padding-bottom: 0.2rem;
 }
@@ -57,26 +54,37 @@
 .text {
   font-size: 1rem;
   text-align: left;
-  color: rgb(240, 240, 240);
+  color: var(--text-light);
   max-width: 20rem;
   word-wrap: break-word;
-  background-color: hsla(209, 100%, 40%, 0.6);
-  /* border: 1px solid #ccc; */
+  background-color: var(--message2);
   border-radius: 12px;
   padding: 0.5rem;
 }
 
 .text_sent {
-  background-color: hsl(27, 100%, 60%);
+  background-color: var(--message1);
 }
 
 .timestamp {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   text-align: right;
-  color: rgba(133, 133, 133, 0.6);
+  color: var(--message-info);
   padding-top: 0.1rem;
 }
 
 .timestamp_sent {
   text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .message img {
+    height: 3.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .message_sent img {
+    height: 3.5rem;
+    margin-left: 0.5rem;
+  }
 }

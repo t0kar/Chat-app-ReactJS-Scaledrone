@@ -48,7 +48,8 @@ const myChannelID = '{YOUR_CHANNEL_ID}';
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
+<img src="./src/media/Git-screenshots/Screenshot1.png" width="600" height="auto" >
+<img src="./src/media/Git-screenshots/Screenshot2.png" width="600" height="auto" >
 
 ## Room for Improvement
 
@@ -56,8 +57,6 @@ To do:
 
 - add emoji picker
 - use Context
-- SCSS
-- media queries
 - use local module for avatars
 
 ## Contact

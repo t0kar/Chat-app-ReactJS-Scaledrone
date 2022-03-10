@@ -18,16 +18,33 @@ code {
 
 #root {
   flex-grow: 1;
-  min-height: 100vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-flow: column nowrap;
+
+  /* global color variables */
+  --main: #1ecd97;
+  --message1: hsl(27, 100%, 60%);
+  --message2: hsla(209, 100%, 40%, 0.6);
+  --message-info: rgba(133, 133, 133, 0.6);
+  --logout: hsl(27, 100%, 60%);
+  --text: rgb(133, 133, 133);
+  --text-light: rgb(240, 240, 240);
+  --border: #ccc;
+  --shadow: rgba(0, 0, 0, 0.25);
+  --scrollbar: rgba(204, 204, 204, 0.2);
+}
+
+header {
+  width: 60%;
+  overflow: hidden;
 }
 
 main {
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -35,23 +52,67 @@ main {
   overflow: auto;
 }
 
-header {
-  width: 50%;
-  overflow: hidden;
-}
-
 footer {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
-  color: #1ecd97;
-  background-color: white;
+  color: var(--main);
   overflow: hidden;
 }
 
-footer span {
+footer a {
   font-weight: bold;
+}
+
+footer a:link,
+a:visited {
+  color: var(--main);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer a:link:active,
+a:visited:active {
+  color: var(--main);
+}
+
+@media screen and (max-width: 600px) {
+  #root {
+    min-height: 100vh;
+  }
+  main {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  footer {
+    position: static;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  main {
+    width: 90%;
+  }
+
+  header {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  main {
+    width: 80%;
+  }
+
+  header {
+    width: 80%;
+  }
 }

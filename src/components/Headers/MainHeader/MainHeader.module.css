@@ -1,16 +1,9 @@
 .header {
   width: 90%;
   margin: 2rem auto;
-  /* margin-left: -25rem; */
   padding: 1rem;
-  font-size: 3rem;
-  font-weight: bold;
-  color: whitesmoke;
-  background-color: #1ecd97;
+  background-color: var(--main);
   border-radius: 12px;
-  /*   position: fixed;
-  top: 0;
-  left: 50%; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,10 +11,11 @@
 }
 
 .header h1 {
-  margin: 0rem;
+  margin: 0;
+  margin-left: 0.5rem;
   font-size: 3rem;
   font-weight: bold;
-  color: whitesmoke;
+  color: var(--text-light);
 }
 
 .header img {
@@ -29,4 +23,19 @@
   margin-right: 0.5rem;
   height: 45px;
   width: 45px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    margin: 0.5rem auto;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header img {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    height: 30px;
+    width: 30px;
+  }
 }

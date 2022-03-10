@@ -1,12 +1,12 @@
 .sidebar {
   margin-right: 0.5rem;
   padding: 1rem;
-  width: 30%;
+  width: 20%;
   height: 100%;
 }
 
 .sidebar div:first-child {
-  color: rgb(133, 133, 133);
+  color: var(--text);
 }
 
 .sidebar ul {
@@ -25,3 +25,21 @@
   font-weight: bold;
 }
  */
+
+@media screen and (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .sidebar {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .sidebar {
+    width: 25%;
+  }
+}
