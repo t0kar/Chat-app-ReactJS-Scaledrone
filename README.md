@@ -48,8 +48,8 @@ const myChannelID = '{YOUR_CHANNEL_ID}';
 
 ## Screenshots
 
-![Screenshot1](./src/media/Git-screenshots/Screenshot1.png)
-![Screenshot2](./src/media/Git-screenshots/Screenshot2.png)
+![Screenshot1](./src/media/Git-screenshots/Screenshot1.PNG)
+![Screenshot2](./src/media/Git-screenshots/Screenshot2.PNG)
 
 ## Room for Improvement
 
