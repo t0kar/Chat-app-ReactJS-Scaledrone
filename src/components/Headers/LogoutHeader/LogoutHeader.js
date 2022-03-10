@@ -13,7 +13,8 @@ export default function logoutHeader(props) {
   return (
     <Card className={classes.logout_header}>
       <div>
-        Pozdrav, <span>{props.username}</span>
+        <div>Pozdrav, </div>
+        <span>{props.username}</span>
       </div>
       <Button className={classes.logout_button} onClick={logoutHandler}>
         Odjava

@@ -38,6 +38,22 @@ code {
   --scrollbar: rgba(204, 204, 204, 0.2);
 }
 
+#root ul::-webkit-scrollbar {
+  width: 12px;
+}
+
+#root ul::-webkit-scrollbar-track {
+  background: var(--text-light);
+  border-radius: 20px;
+  border: 1px solid var(border);
+}
+
+#root ul::-webkit-scrollbar-thumb {
+  background-color: var(--text-light);
+  border-radius: 20px;
+  border: 3px solid var(--border);
+}
+
 header {
   width: 60%;
   overflow: hidden;

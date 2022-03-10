@@ -1,7 +1,7 @@
 .chat {
   margin: 1rem auto;
-  height: 30rem;
   width: 90%;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -17,7 +17,6 @@
 @media screen and (max-width: 600px) {
   .chat {
     width: 100%;
-    min-height: 60%;
     flex-flow: column nowrap;
     align-items: center;
   }

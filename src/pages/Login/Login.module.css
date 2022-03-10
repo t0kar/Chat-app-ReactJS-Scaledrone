@@ -47,5 +47,6 @@
 @media screen and (max-width: 600px) {
   .login {
     margin: 1rem auto 2rem auto;
+    width: 90%;
   }
 }

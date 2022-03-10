@@ -5,18 +5,17 @@
   padding: 1rem;
   width: 90%;
   height: 10rem;
+  min-height: 10%;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
 .logout_header div {
-  margin-right: 1rem;
   font-size: 1.5rem;
   color: var(--text);
-  width: 100%;
   display: flex;
-  align-items: center;
+  justify-content: flex-start;
 }
 
 .logout_header span {
@@ -37,8 +36,14 @@
 
 @media screen and (max-width: 600px) {
   .logout_header {
-    margin-top: -5.1rem;
+    margin-top: -5.2rem;
     margin-bottom: 0.5rem;
     height: 8.5rem;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  .logout_header div div {
+    display: none;
   }
 }
