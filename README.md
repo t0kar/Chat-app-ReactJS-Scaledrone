@@ -6,7 +6,7 @@ This chat application is final project for front-end developer course.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/391a2c19-8a0b-4128-b379-ad4f4350fee1/deploy-status)](https://app.netlify.com/sites/chat-app-tokar/deploys)
 
-https://chat.tokar.com.hr/
+[https://chat.tokar.com.hr/](https://chat-app-tokar.netlify.app/)
 
 ## Technologies Used
 
